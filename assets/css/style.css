@@ -113,9 +113,14 @@ html {
     text-decoration: none;
 }
 
-#nav-menu .nav-list li:hover a {
+#nav-menu .nav-list li:not(.active):hover a {
     color: #f4511e;
     background-color: #fff;
+}
+
+#nav-menu .active {
+    color: #f4511e !important;
+    background-color: #fff !important;
 }
 
 #header-site .bar {
