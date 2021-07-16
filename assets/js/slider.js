@@ -22,7 +22,7 @@ function slideNumber(n = counter) {
 }
 
 function nextSlide() {
-    console.log(counter);
+    // console.log(counter);
     if (counter >= slideItems.length - 1) return;
     counter++;
     slideList.style.transition = "transform 0.5s ease-in-out";
@@ -60,7 +60,7 @@ slideList.addEventListener("transitionend", () => {
 });
 function chooseSlide() {
     for(let i = 0; i < toogle.length; i++) {
-        console.log(toogle[i]);
+        // console.log(toogle[i]);
         toogle[i].addEventListener("click", function() {
             counter = i + 1;
             slideList.style.transition = "transform 0.5s ease-in-out";

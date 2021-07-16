@@ -8,11 +8,11 @@ navBarIcon.addEventListener("click", function() {
     var isClosed = header.clientHeight === heightHeader;
     if(isClosed) {
         header.style.height = "auto";
-        console.log("pass")
+        // console.log("pass")
     }
     else {
         header.style.height = heightHeader + "px";
-        console.log("fail", heightHeader)
+        // console.log("fail", heightHeader)
     }
 })
 
