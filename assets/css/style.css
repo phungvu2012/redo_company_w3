@@ -410,11 +410,11 @@ html {
 }
 
 #pre {
-    right: 0;
+    left: 0;
 }
 
 #next {
-    left: 0;
+    right: 0;
 }
 
 #pricing {
@@ -495,7 +495,20 @@ html {
     background-color: #fff;
 }
 
+.toogle {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
+.toogle i {
+    cursor: pointer;
+}
+
+.slide-active {
+    color: #f4511e;
+}
 
 #contact {
     color: #818181;
